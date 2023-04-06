@@ -1,10 +1,12 @@
-This repo is for posting on the [React Native New Architecture discussion/community feedback working group](https://reactnative.dev/docs/the-new-architecture/pillars-turbomodules#android). I've applied to be able to participate, so hopefully they'll let me in and lmk what I'm doing wrong. 
+This experiment is for posting on the [React Native New Architecture discussion/community feedback working group](https://reactnative.dev/docs/the-new-architecture/pillars-turbomodules#android). 
 
 The setup
 - An out-of-the-box react native app built according to the [getting started instructions](https://reactnative.dev/docs/environment-setup?guide=native&platform=ios&package-manager=npm&os=macos#installing-dependencies)
 - A turbo module set up according to [the guide here](https://reactnative.dev/docs/the-new-architecture/pillars-turbomodules#android). 
  
-The difference is that the module is named slightly differently (the module is a `Greeter`, unlike the example `Calculator`), and has a function named `greet` (instead of `add`), and returns a different type (`string` instead of `promise` -- I've also tried returning a Promise here and I get the same error). Only the Android / kotlin side is implemented, and I'm only running in Android, but the error is related to the Android build. I have not tried iOS yet.
+The difference is that the module is named slightly differently (the module is a `Greeter`, unlike the example `Calculator`), and has a function named `greet` (instead of `add`), and returns a different type (`string` instead of `promise` -- I've also tried returning a Promise here and I get the same error). 
+
+Only the Android / kotlin side is implemented in this example. In a different repo I have tried implementing the `Greeter` interface natively on the iOS side as well and am getting a different but perhaps related error.  The app does build and run, but I get this error in the logs: ` LOG  [TypeError: Cannot read property 'greet' of null]`. Let me know if it would be helpful for me to add the native iOS implementation to this repo, too.
 
 This is the exception I'm currently getting when attempting `npx react-native run-android`
 ```bash
