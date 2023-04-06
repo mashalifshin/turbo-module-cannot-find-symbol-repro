@@ -12,10 +12,9 @@ This is the exception I'm currently getting when attempting `npx react-native ru
 ```bash
 $ npx react-native run-android
 
+
 warn Multiple Podfiles were found: ios/Podfile,vendor/bundle/ruby/3.0.0/gems/cocoapods-core-1.12.0/lib/cocoapods-core/Podfile. Choosing ios/Podfile automatically. If you would like to select a different one, you can configure it via "project.ios.sourceDir". You can learn more about it here: https://github.com/react-native-community/cli/blob/master/docs/configuration.md
-info Starting JS server...
-info Launching emulator...
-info Successfully launched emulator.
+info JS server already running.
 info Installing the app...
 
 > Task :app:configureCMakeDebug[arm64-v8a]
@@ -35,8 +34,8 @@ C/C++:   values may be wrong or missing.  Update to CMake 3.19 or newer to use
 C/C++:   CMake's built-in compiler identification.
 C/C++: Call Stack (most recent call first):
 C/C++:   /Users/masha/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-C/C++:   /Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/391g4d4p/arm64-v8a/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
-C/C++:   /Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/391g4d4p/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+C/C++:   /Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/3a221s6e/arm64-v8a/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+C/C++:   /Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/3a221s6e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 C/C++: CMake Warning at /Users/masha/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
 C/C++:   An old version of CMake is being used that cannot automatically detect
 C/C++:   compiler attributes.  Compiler identification is being bypassed.  Some
@@ -44,8 +43,8 @@ C/C++:   values may be wrong or missing.  Update to CMake 3.19 or newer to use
 C/C++:   CMake's built-in compiler identification.
 C/C++: Call Stack (most recent call first):
 C/C++:   /Users/masha/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-C/C++:   /Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/391g4d4p/arm64-v8a/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
-C/C++:   /Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/391g4d4p/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+C/C++:   /Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/3a221s6e/arm64-v8a/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+C/C++:   /Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/3a221s6e/arm64-v8a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 > Task :app:configureCMakeDebug[armeabi-v7a]
 C/C++: CMake Warning at /Users/masha/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
@@ -64,8 +63,8 @@ C/C++:   values may be wrong or missing.  Update to CMake 3.19 or newer to use
 C/C++:   CMake's built-in compiler identification.
 C/C++: Call Stack (most recent call first):
 C/C++:   /Users/masha/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-C/C++:   /Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/391g4d4p/armeabi-v7a/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
-C/C++:   /Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/391g4d4p/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+C/C++:   /Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/3a221s6e/armeabi-v7a/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+C/C++:   /Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/3a221s6e/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 C/C++: CMake Warning at /Users/masha/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
 C/C++:   An old version of CMake is being used that cannot automatically detect
 C/C++:   compiler attributes.  Compiler identification is being bypassed.  Some
@@ -73,8 +72,8 @@ C/C++:   values may be wrong or missing.  Update to CMake 3.19 or newer to use
 C/C++:   CMake's built-in compiler identification.
 C/C++: Call Stack (most recent call first):
 C/C++:   /Users/masha/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-C/C++:   /Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/391g4d4p/armeabi-v7a/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
-C/C++:   /Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/391g4d4p/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+C/C++:   /Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/3a221s6e/armeabi-v7a/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+C/C++:   /Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/3a221s6e/armeabi-v7a/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 > Task :app:configureCMakeDebug[x86]
 C/C++: CMake Warning at /Users/masha/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
@@ -93,8 +92,8 @@ C/C++:   values may be wrong or missing.  Update to CMake 3.19 or newer to use
 C/C++:   CMake's built-in compiler identification.
 C/C++: Call Stack (most recent call first):
 C/C++:   /Users/masha/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-C/C++:   /Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/391g4d4p/x86/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
-C/C++:   /Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/391g4d4p/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+C/C++:   /Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/3a221s6e/x86/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+C/C++:   /Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/3a221s6e/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 C/C++: CMake Warning at /Users/masha/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
 C/C++:   An old version of CMake is being used that cannot automatically detect
 C/C++:   compiler attributes.  Compiler identification is being bypassed.  Some
@@ -102,8 +101,8 @@ C/C++:   values may be wrong or missing.  Update to CMake 3.19 or newer to use
 C/C++:   CMake's built-in compiler identification.
 C/C++: Call Stack (most recent call first):
 C/C++:   /Users/masha/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-C/C++:   /Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/391g4d4p/x86/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
-C/C++:   /Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/391g4d4p/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+C/C++:   /Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/3a221s6e/x86/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+C/C++:   /Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/3a221s6e/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 
 > Task :app:configureCMakeDebug[x86_64]
 C/C++: CMake Warning at /Users/masha/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
@@ -122,8 +121,8 @@ C/C++:   values may be wrong or missing.  Update to CMake 3.19 or newer to use
 C/C++:   CMake's built-in compiler identification.
 C/C++: Call Stack (most recent call first):
 C/C++:   /Users/masha/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-C/C++:   /Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/391g4d4p/x86_64/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
-C/C++:   /Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/391g4d4p/x86_64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+C/C++:   /Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/3a221s6e/x86_64/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+C/C++:   /Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/3a221s6e/x86_64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
 C/C++: CMake Warning at /Users/masha/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
 C/C++:   An old version of CMake is being used that cannot automatically detect
 C/C++:   compiler attributes.  Compiler identification is being bypassed.  Some
@@ -131,17 +130,19 @@ C/C++:   values may be wrong or missing.  Update to CMake 3.19 or newer to use
 C/C++:   CMake's built-in compiler identification.
 C/C++: Call Stack (most recent call first):
 C/C++:   /Users/masha/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
-C/C++:   /Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/391g4d4p/x86_64/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
-C/C++:   /Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/391g4d4p/x86_64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+C/C++:   /Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/3a221s6e/x86_64/CMakeFiles/3.18.1-g262b901/CMakeSystem.cmake:6 (include)
+C/C++:   /Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/.cxx/Debug/3a221s6e/x86_64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+> Task :app:compileDebugJavaWithJavac
 
 > Task :app:compileDebugJavaWithJavac FAILED
-61 actionable tasks: 44 executed, 17 up-to-date
-/Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/build/generated/rncli/src/main/java/com/facebook/react/PackageList.java:15: error: cannot find symbol
+61 actionable tasks: 61 executed
+/Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/build/generated/rncli/src/main/java/com/facebook/react/PackageList.java:15: error: cannot find symbol
 import com.rtngreeter.GreeterPackage;
                      ^
   symbol:   class GreeterPackage
   location: package com.rtngreeter
-/Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/build/generated/rncli/src/main/java/com/facebook/react/PackageList.java:61: error: cannot find symbol
+/Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/build/generated/rncli/src/main/java/com/facebook/react/PackageList.java:61: error: cannot find symbol
       new GreeterPackage()
           ^
   symbol:   class GreeterPackage
@@ -175,16 +176,16 @@ java.lang.StackOverflowError (no error message)
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 28s
+BUILD FAILED in 31s
 
 error Failed to install the app. Make sure you have the Android development environment set up: https://reactnative.dev/docs/environment-setup.
 Error: Command failed: ./gradlew app:installDebug -PreactNativeDevServerPort=8081
-/Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/build/generated/rncli/src/main/java/com/facebook/react/PackageList.java:15: error: cannot find symbol
+/Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/build/generated/rncli/src/main/java/com/facebook/react/PackageList.java:15: error: cannot find symbol
 import com.rtngreeter.GreeterPackage;
                      ^
   symbol:   class GreeterPackage
   location: package com.rtngreeter
-/Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/build/generated/rncli/src/main/java/com/facebook/react/PackageList.java:61: error: cannot find symbol
+/Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/android/app/build/generated/rncli/src/main/java/com/facebook/react/PackageList.java:61: error: cannot find symbol
       new GreeterPackage()
           ^
   symbol:   class GreeterPackage
@@ -218,13 +219,13 @@ java.lang.StackOverflowError (no error message)
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 28s
+BUILD FAILED in 31s
 
-    at makeError (/Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/node_modules/execa/index.js:174:9)
-    at /Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/node_modules/execa/index.js:278:16
+    at makeError (/Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/node_modules/execa/index.js:174:9)
+    at /Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/node_modules/execa/index.js:278:16
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-    at async runOnAllDevices (/Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/node_modules/@react-native-community/cli-platform-android/build/commands/runAndroid/runOnAllDevices.js:82:7)
-    at async Command.handleAction (/Users/masha/Code/FlorenceX-Inc/experiments/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/node_modules/@react-native-community/cli/build/index.js:108:9)
+    at async runOnAllDevices (/Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/node_modules/@react-native-community/cli-platform-android/build/commands/runAndroid/runOnAllDevices.js:82:7)
+    at async Command.handleAction (/Users/masha/Code/turbo-module-cannot-find-symbol-repoducer/AwesomeProject/node_modules/@react-native-community/cli/build/index.js:108:9)
 info Run CLI with --verbose flag for more details.
 ```
 
