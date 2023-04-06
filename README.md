@@ -1,4 +1,4 @@
-This experiment is for posting on the [React Native New Architecture discussion/community feedback working group](https://reactnative.dev/docs/the-new-architecture/pillars-turbomodules#android). 
+This repo is for posting on the [React Native New Architecture discussion/community feedback working group](https://reactnative.dev/docs/the-new-architecture/pillars-turbomodules#android). 
 
 The setup
 - An out-of-the-box react native app built according to the [getting started instructions](https://reactnative.dev/docs/environment-setup?guide=native&platform=ios&package-manager=npm&os=macos#installing-dependencies)
