@@ -1,0 +1,39 @@
+{
+  "name": "rtn-greeter",
+  "version": "0.0.1",
+  "description": "Add numbers with Turbo Native Modules",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "rtn-greeter.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": ["react-native", "ios", "android"],
+  "repository": "https://github.com/mashalifshin/rtn-greeter",
+  "author": "<Your Name> <your_email@your_provider.com> (https://github.com/mashalifshin/rtn-greeter>)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mashalifshin/rtn-greeter/issues"
+  },
+  "homepage": "https://github.com/mashalifshin/rtn-greeter#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RTNGreeterSpec",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.rtngreeter"
+    }
+  }
+}
